@@ -1,4 +1,6 @@
-# Anderson Dos Reis Pacheco 👋
+# Anderson Dos Reis Pacheco 👋 
+
+# 😄 Pronomes: ele/dele
 
 <div align="center">
 
@@ -6,9 +8,8 @@
 
 </div>
 
-- Olá, eu sou o **Anderson Dos Reis Pacheco**! Sou um desenvolvedor focado em criar soluções completas e de alta qualidade, assegurando que cada parte do projeto do front-end ao back-end e banco de dados — seja funcional, escalável e mantenha as melhores práticas de código.
+- Olá, eu sou o **Anderson Dos Reis Pacheco**! Sou um desenvolvedor focado em criar soluções completas e de alta qualidade, assegurando que cada parte do projeto do front-end ao back-end e banco de dados seja funcional, escalável e mantenha as melhores práticas de código.
 
-# 😄 Pronomes: ele/dele
 
 ---
 
