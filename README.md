@@ -1,12 +1,12 @@
-# Anderson Pacheco 👋
+# Anderson Dos Reis Pacheco 👋
 
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,100:000000&height=200&section=header&text=Anderson%20Pacheco&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,100:000000&height=200&section=header&text=Anderson%20Dos%20Reis%20Pacheco&fontSize=40&fontColor=000000&animation=fadeIn&fontAlignY=35)
 
 </div>
 
-Olá, eu me chamo, **Anderson Pacheco**, Tenho 22 anos e sou **Dev Front-end e Back-end**, criando soluções completas, escaláveis e modernas, desde interfaces até lógica de negócio, integração com banco de dados e desenvolvimento de APIs.  
+- Olá, eu sou o **Anderson Dos Reis Pacheco**! Sou um desenvolvedor focado em criar soluções completas e de alta qualidade, assegurando que cada parte do projeto do front-end ao back-end e banco de dados — seja funcional, escalável e mantenha as melhores práticas de código.
 
 # 😄 Pronomes: ele/dele
 
@@ -34,15 +34,22 @@ Olá, eu me chamo, **Anderson Pacheco**, Tenho 22 anos e sou **Dev Front-end e B
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React"/>
 </div>
 
-### ⚙️ Frameworks & Bibliotecas
+### ⚙️ Back-end & Frameworks
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="Spring"/>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="Express"/>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js"/>
+</div>
+
+### 🗄️ Banco de Dados
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL"/>
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="Oracle"/>
 </div>
 
 ### 🛠️ Ferramentas & IDEs
@@ -54,19 +61,6 @@ Olá, eu me chamo, **Anderson Pacheco**, Tenho 22 anos e sou **Dev Front-end e B
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git"/>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub"/>
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL"/>
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="Oracle"/>
-</div>
-
-### 📊 Banco de Dados & APIs
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL"/>
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL"/>
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="Oracle"/>
 </div>
 
 ### 🧠 Princípios & Metodologias
@@ -82,8 +76,8 @@ Olá, eu me chamo, **Anderson Pacheco**, Tenho 22 anos e sou **Dev Front-end e B
 
 ## 🚀 Projetos Destaque
 
-- [ForumHub](https://github.com/AndersonRedfield/Challenge-ForumHub-Alura) - Fórum online completo com Spring Boot, JWT e autenticação.  
-- [LiterAlura](https://github.com/AndersonRedfield/ChallengeLiterAlura) - Consulta de livros usando API Gutendex, PostgreSQL e Java.  
+- [ForumHub](https://github.com/AndersonDosReisPacheco/Challenge-ForumHub-Alura) - Fórum online completo com Spring Boot, JWT e autenticação.  
+- [LiterAlura](https://github.com/AndersonDosReisPacheco/ChallengeLiterAlura) - Consulta de livros usando API Gutendex, PostgreSQL e Java.  
 
 ---
 
@@ -92,7 +86,7 @@ Olá, eu me chamo, **Anderson Pacheco**, Tenho 22 anos e sou **Dev Front-end e B
 <!-- Cobrinha com tema vermelho e preto -->
 <div align="center">
   
-![Snake animation](https://github.com/AndersonRedfield/AndersonRedfield/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/AndersonDosReisPacheco/AndersonDosReisPacheco/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -101,23 +95,23 @@ Olá, eu me chamo, **Anderson Pacheco**, Tenho 22 anos e sou **Dev Front-end e B
 
 ### 🎯 **Estatísticas do Perfil**
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AndersonRedfield&show_icons=true&theme=dark&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&border_color=ff0000&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AndersonDosReisPacheco&show_icons=true&theme=dark&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&border_color=ff0000&count_private=true&hide_border=true"/>
   
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndersonRedfield&layout=compact&theme=dark&title_color=ff0000&text_color=ffffff&bg_color=000000&border_color=ff0000&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndersonDosReisPacheco&layout=compact&theme=dark&title_color=ff0000&text_color=ffffff&bg_color=000000&border_color=ff0000&hide_border=true"/>
 
 </div>
 
 <!-- Streak stats com tema vermelho e preto -->
 <div align="center">
 
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=AndersonRedfield&theme=dark&background=000000&ring=ff0000&fire=ff0000&currStreakLabel=ff0000&border=ff0000&dates=ffffff&hide_border=true"/>
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=AndersonDosReisPacheco&theme=dark&background=000000&ring=ff0000&fire=ff0000&currStreakLabel=ff0000&border=ff0000&dates=ffffff&hide_border=true"/>
 
 </div>
 
 <!-- Estatísticas de atividade -->
 <div align="center">
 
-![Estatísticas de atividade](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AndersonRedfield&theme=dark)
+![Estatísticas de atividade](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AndersonDosReisPacheco&theme=dark)
 
 </div>
 
@@ -144,6 +138,6 @@ Olá, eu me chamo, **Anderson Pacheco**, Tenho 22 anos e sou **Dev Front-end e B
 
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,100:000000&height=200&section=header&text=Anderson%20Pacheco&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,100:000000&height=200&section=header&text=Anderson%20Dos%20Reis%20Pacheco&fontSize=40&fontColor=000000&animation=fadeIn&fontAlignY=35)
 
 </div>
