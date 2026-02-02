@@ -16,7 +16,7 @@ jobs:
       - name: Generate GitHub contribution snake
         uses: Platane/snk@v3
         with:
-          github_user_name: AndersondDosReisPacheco
+          github_user_name: AndersonDosReisPacheco
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
