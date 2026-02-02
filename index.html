@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anderson Pacheco | Desenvolvedor Full Stack</title>
+  <meta name="description"
+    content="Portfólio de Anderson Pacheco, desenvolvedor full stack com experiência em back-end, front-end, APIs, bancos de dados e cloud. Atuação em aplicações web modernas, sistemas escaláveis, integração de sistemas, arquitetura de software, automação, deploy e boas práticas de desenvolvimento.">
+  <meta name="keywords"
+    content="Desenvolvedor Full Stack, Full Stack Developer, Back-end, Front-end, APIs REST, Java, Spring Boot, JavaScript, HTML5, CSS3, Banco de Dados, PostgreSQL, MySQL, Cloud, DevOps, Docker, Git, GitHub, Arquitetura de Software, Integração de Sistemas, Aplicações Web, Software Engineering">
+  <meta name="author" content="Anderson Pacheco">
+
+  <!-- Open Graph para redes sociais -->
+  <meta property="og:title" content="Anderson Pacheco | Desenvolvedor Full Stack">
+  <meta property="og:description"
+    content="Desenvolvedor Full Stack especializado em Java, Spring Boot e tecnologias web modernas. Confira meus projetos reais!">
+  <meta property="og:image" content="./assets/Foto_Para_Portfolio.jpeg">
+  <meta property="og:url" content="https://andersonpacheco.dev">
+  <meta property="og:type" content="website">
+
+  <!-- Links de CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>" />
+
+  <!-- Scripts -->
+  <script src="projects.js" defer></script>
+  <script src="translations.js" defer></script>
+  <script src="turnstile.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Loader inicial -->
+  <div class="loader">
+    <div class="loader-content">
+      <div class="spinner"></div>
+      <p data-i18n="loading_portfolio">Carregando portfólio...</p>
+    </div>
+  </div>
+
+  <!-- Cursor personalizado -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Navegação -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <span class="logo-text">Anderson<span class="logo-highlight">Pacheco</span></span>
+      </div>
+
+      <div class="nav-links">
+        <a href="#home" class="nav-link active" data-i18n="home">Início</a>
+        <a href="#about" class="nav-link" data-i18n="about">Sobre</a>
+        <a href="#projects" class="nav-link" data-i18n="projects">Projetos</a>
+        <a href="#skills" class="nav-link" data-i18n="skills">Habilidades</a>
+        <a href="#contact" class="nav-link" data-i18n="contact">Contato</a>
+      </div>
+
+      <button class="menu-toggle" aria-label="Abrir menu" data-i18n-title="menu" title="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch" />
+        <label for="theme-switch" class="theme-label">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+        </label>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <!-- Seção Hero / Início -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h4 class="hero-subtitle" data-i18n="hero_subtitle">Olá, eu sou</h4>
+          <h1 class="hero-title">
+            <span class="text-animate">Anderson</span>
+            <span class="text-animate delay-1">Pacheco</span>
+          </h1>
+          <h2 class="hero-role" data-i18n="hero_role">Desenvolvedor Full Stack</h2>
+          <p class="hero-description" data-i18n="hero_description">
+            Especialista no desenvolvimento de soluções digitais completas, integrando de forma estratégica back-end,
+            front-end, APIs, bancos de dados e cloud, para transformar desafios complexos em sistemas escaláveis,
+            seguros e performáticos. Atuo na construção de aplicações modernas, com foco em integração total entre
+            sistemas, qualidade de código, arquitetura bem estruturada e excelente experiência do usuário, entregando
+            soluções que geram valor real e impacto profissional.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary" data-i18n="view_projects">Ver Projetos (10)</a>
+            <a href="#contact" class="btn btn-secondary" data-i18n="contact_me">Entrar em Contato</a>
+            <a href="https://wa.me/5522998148876" target="_blank" class="btn btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> <span data-i18n="whatsapp">WhatsApp</span>
+            </a>
+            <!-- Botão de Certificações -->
+            <a href="certificacoes_anderson_pacheco.pdf" target="_blank" class="btn btn-certifications"
+              id="certifications-btn">
+              <i class="fas fa-certificate"></i> <span data-i18n="certifications">Certificações</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+          </div>
+          <div class="hero-image-container">
+            <div class="hero-image-placeholder" id="profile-image">
+              <!-- Foto carregada via JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span data-i18n="scroll_explore">Role para explorar</span>
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about-section">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="about_title">Sobre <span class="highlight">Mim</span></h2>
+        <p class="section-subtitle" data-i18n="about_subtitle">Jornada, paixão e compromisso com excelência</p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-frame">
+            <div class="image-placeholder" id="about-profile-image">
+              <!-- Foto carregada via JavaScript -->
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3 data-i18n="about_heading">Transformando código em soluções impactantes</h3>
+          <p data-i18n="about_para1">
+            Como desenvolvedor Full Stack, combino expertise técnica em Java, Spring Boot e tecnologias web modernas
+            para criar sistemas completos, desde APIs robustas até interfaces intuitivas. Minha abordagem integra
+            back-end seguro e escalável com front-end responsivo, sempre focando em experiência do usuário,
+            performance e boas práticas de desenvolvimento.
+          </p>
+          <p data-i18n="about_para2">
+            Tenho experiência prática no ciclo completo de desenvolvimento: concepção, arquitetura, implementação,
+            testes e deploy em produção. Domino Java com Spring Boot para APIs REST, autenticação JWT, bancos de dados
+            relacionais (PostgreSQL/MySQL), Docker básico, Git, e deploy em cloud (Render, Vercel, Netlify).
+          </p>
+          <p data-i18n="about_para3">
+            No front-end, desenvolvo com JavaScript moderno, HTML5 semântico, CSS3 avançado e React, criando interfaces
+            responsivas, acessíveis e com ótima performance. Aplico Clean Code, arquitetura em camadas, SOLID e padrões
+            RESTful para garantir qualidade, manutenibilidade e escalabilidade.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="10">0</span>
+              <span class="stat-label" data-i18n="projects_real">Projetos Reais</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="35">0</span>
+              <span class="stat-label" data-i18n="technologies">Tecnologias</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="100">0</span>
+              <span class="stat-label" data-i18n="commitment">Comprometimento</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects" class="projects-section">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="projects_title">Meus <span class="highlight">Projetos</span></h2>
+        <p class="section-subtitle" data-i18n="projects_subtitle">Soluções reais desenvolvidas com expertise técnica</p>
+      </div>
+
+      <!-- Filtros de projetos -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all" data-i18n="all_projects">Todos (10)</button>
+        <button class="filter-btn" data-filter="java" data-i18n="java_projects">Java/APIs (4)</button>
+        <button class="filter-btn" data-filter="web" data-i18n="web_projects">Web/Frontend (6)</button>
+        <button class="filter-btn" data-filter="fullstack" data-i18n="fullstack">Full Stack</button>
+        <button class="filter-btn" data-filter="pessoal" data-i18n="personal">Pessoais</button>
+      </div>
+
+      <!-- Container de projetos -->
+      <div class="projects-container" id="projects-container">
+        <!-- Projetos carregados dinamicamente via projects.js -->
+      </div>
+
+      <!-- Modal para detalhes do projeto -->
+      <div class="project-modal" id="project-modal">
+        <div class="modal-content">
+          <button class="modal-close" id="modal-close" data-i18n-title="close" title="Fechar">&times;</button>
+          <div class="modal-body" id="modal-body">
+            <!-- Conteúdo do modal será preenchido via JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Habilidades - ATUALIZADA E COMPLETA -->
+    <section id="skills" class="skills-section">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="skills_title">Minhas <span class="highlight">Habilidades</span></h2>
+        <p class="section-subtitle" data-i18n="skills_subtitle">Tecnologias, ferramentas e conhecimentos técnicos</p>
+      </div>
+
+      <!-- Categorias de habilidades ATUALIZADAS -->
+      <div class="skills-container">
+        <!-- 🧠 Linguagens de Programação -->
+        <div class="skill-category">
+          <h3><i class="fas fa-brain"></i> <span data-i18n="programming_languages">Linguagens de Programação</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="java_poo">Java (POO, Collections, Streams)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="javascript_es6">JavaScript (ES6+)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="typescript">TypeScript</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="30"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="python">Python (Scripts & Lógica)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="25"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="sql">SQL</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🌐 Linguagens de Marcação e Estilo -->
+        <div class="skill-category">
+          <h3><i class="fas fa-globe"></i> <span data-i18n="markup_styling">Linguagens de Marcação & Estilo</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="html5_semantic">HTML5 (Semântico, Acessibilidade)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="css3_modern">CSS3 (Flexbox, Grid, Animações)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="92"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="css_responsive">CSS Moderno Responsivo</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ⚙️ Back-End & APIs -->
+        <div class="skill-category">
+          <h3><i class="fas fa-cogs"></i> <span data-i18n="backend_apis">Back-End & APIs</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="spring_boot">Spring Boot (APIs RESTful)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="api_rest">API REST (CRUD, Validações)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="92"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="spring_security">Spring Security & JWT</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="jpa_hibernate">JPA/Hibernate (ORM)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="82"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="node_express">Node.js & Express.js</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="15"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="bean_validation">Bean Validation</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="mvc_architecture">Arquitetura MVC</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🎨 Front-End & Web -->
+        <div class="skill-category">
+          <h3><i class="fas fa-paint-brush"></i> <span data-i18n="frontend_web">Front-End & Web</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="react_js">React.js</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="20"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="vite">Vite</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="15"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="responsive_design">Responsive Web Design</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="ui_ux">UI/UX Principles</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="api_integration">Integração APIs REST</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="state_management">Manipulação de Estado</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="15"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🗄️ Banco de Dados (Relacionais) -->
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> <span data-i18n="databases">Banco de Dados</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="postgresql">PostgreSQL</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="mysql">MySQL</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="sqlite">SQLite</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="78"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="neon">Neon (PostgreSQL Serverless)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="10"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="modeling">Modelagem & Normalização</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="82"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="advanced_queries">Consultas SQL Avançadas</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="88"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🧩 Conceitos de Programação & Engenharia -->
+        <div class="skill-category">
+          <h3><i class="fas fa-puzzle-piece"></i> <span data-i18n="software_engineering">Engenharia de Software</span>
+          </h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="oop">POO (Encapsulamento, Herança)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="polymorphism">Polimorfismo & Abstração</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="clean_code">Clean Code</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="layered_architecture">Arquitetura em Camadas</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="83"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="design_patterns">Padrões de Projeto</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="separation">Separação de Responsabilidades</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="87"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🔐 Segurança & Autenticação -->
+        <div class="skill-category">
+          <h3><i class="fas fa-lock"></i> <span data-i18n="security_auth">Segurança & Autenticação</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="jwt">JWT (JSON Web Token)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="token_auth">Autenticação Baseada em Token</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="83"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="role_auth">Autorização por Roles</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="endpoint_protection">Proteção de Endpoints</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="82"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ☁️ Cloud, Deploy & Hosting -->
+        <div class="skill-category">
+          <h3><i class="fas fa-cloud"></i> <span data-i18n="cloud_deploy">Cloud & Deploy</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="vercel">Vercel</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="25"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="render">Render</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="20"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="github_pages">GitHub Pages</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="netlify">Netlify</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="15"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="fullstack_deploy">Deploy Full Stack</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="20"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🛠️ DevTools, IDEs & Ferramentas -->
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> <span data-i18n="devtools">DevTools & Ferramentas</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="git_github">Git & GitHub</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="docker">Docker (Básico/Intermediário)</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="vscode_intellij">VS Code & IntelliJ IDEA</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="visual_studio">Visual Studio</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="15"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="cursor_ide">Cursor IDE</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="version_control">Controle de Versão</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="88"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🤖 Inteligência Artificial como Suporte -->
+        <div class="skill-category">
+          <h3><i class="fas fa-robot"></i> <span data-i18n="ai_support">Inteligência Artificial como Suporte</span></h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="ai_code_assistance">Assistência em Codificação com IA</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="ai_code_explanation">Compreensão de Código via IA</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="ai_problem_solving">Resolução de Problemas com IA</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name" data-i18n="ai_learning_tool">IA como Ferramenta de Aprendizado</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="92"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção de competências detalhadas -->
+      <div class="competencies-section">
+        <h3 class="competencies-title" data-i18n="detailed_competencies">Competências Técnicas Detalhadas</h3>
+        <div class="competencies-grid">
+          <div class="competency-category">
+            <h4><i class="fas fa-cogs"></i> <span data-i18n="architecture_engineering">Arquitetura & Engenharia</span>
+            </h4>
+            <ul>
+              <li data-i18n="oop_item">Programação Orientada a Objetos (POO)</li>
+              <li data-i18n="layered_arch_item">Arquitetura em Camadas</li>
+              <li data-i18n="clean_code_item">Clean Code & Boas Práticas</li>
+              <li data-i18n="restful_arch">Arquitetura RESTful</li>
+              <li data-i18n="solid_principles">SOLID Principles</li>
+              <li data-i18n="design_patterns_item">Design Patterns</li>
+              <li data-i18n="unit_tests">Testes Unitários</li>
+              <li data-i18n="error_handling">Tratamento de Erros e Exceções</li>
+              <li data-i18n="external_api">Integração com APIs Externas</li>
+              <li data-i18n="semantic_versioning">Versionamento Semântico</li>
+            </ul>
+          </div>
+          <div class="competency-category">
+            <h4><i class="fas fa-tools"></i> <span data-i18n="tools_methodologies">Ferramentas & Metodologias</span>
+            </h4>
+            <ul>
+              <li data-i18n="git_flow">Git Flow & Versionamento</li>
+              <li data-i18n="ide_tools">IntelliJ IDEA & VS Code</li>
+              <li data-i18n="api_tools">Insomnia & Postman (APIs)</li>
+              <li data-i18n="agile_methods">Metodologias Ágeis</li>
+              <li data-i18n="tech_docs">Documentação Técnica</li>
+              <li data-i18n="figma_basic">Figma (Básico)</li>
+              <li data-i18n="swagger_openapi">Swagger/OpenAPI</li>
+              <li data-i18n="repo_management">Gerenciamento de Repositórios</li>
+              <li data-i18n="project_organization">Organização de Projetos</li>
+            </ul>
+          </div>
+          <div class="competency-category">
+            <h4><i class="fas fa-robot"></i> <span data-i18n="ai_support_competencies">Inteligência Artificial como
+                Suporte</span></h4>
+            <ul>
+              <li data-i18n="ai_code_comprehension">Compreensão de código com assistência de IA</li>
+              <li data-i18n="ai_debugging_assistance">Assistência em debugging com IA</li>
+              <li data-i18n="ai_learning_acceleration">Aceleração de aprendizado via IA</li>
+              <li data-i18n="ai_best_practices">Identificação de melhores práticas com IA</li>
+              <li data-i18n="ai_documentation">Geração de documentação com IA</li>
+              <li data-i18n="ai_code_exploration">Exploração de novos conceitos via IA</li>
+              <li data-i18n="ai_problem_analysis">Análise de problemas com suporte de IA</li>
+              <li data-i18n="ai_solution_research">Pesquisa de soluções assistida por IA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diferenciais Técnicos -->
+      <div class="competencies-section differentials-section">
+        <h3 class="competencies-title" data-i18n="technical_differentials">🎯 Diferenciais Técnicos</h3>
+        <div class="competencies-grid">
+          <div class="competency-category">
+            <h4><i class="fas fa-sync-alt"></i> <span data-i18n="complete_integration">Integração Completa</span></h4>
+            <ul>
+              <li data-i18n="frontend_backend_integration">Integração Front-End + Back-End</li>
+              <li data-i18n="fullstack_dev">Desenvolvimento Full Stack</li>
+              <li data-i18n="complete_apis">APIs REST Completas</li>
+              <li data-i18n="production_deploy">Sistemas com Deploy em Produção</li>
+            </ul>
+          </div>
+          <div class="competency-category">
+            <h4><i class="fas fa-rocket"></i> <span data-i18n="practical_development">Desenvolvimento Prático</span>
+            </h4>
+            <ul>
+              <li data-i18n="solution_development">Desenvolvimento orientado a soluções reais</li>
+              <li data-i18n="professional_code">Organização de código profissional</li>
+              <li data-i18n="clean_architecture">Arquitetura limpa e escalável</li>
+              <li data-i18n="analytical_thinking">Pensamento analítico</li>
+            </ul>
+          </div>
+          <div class="competency-category">
+            <h4><i class="fas fa-robot"></i> <span data-i18n="ai_enhanced_development">Desenvolvimento Potencializado
+                por
+                IA</span></h4>
+            <ul>
+              <li data-i18n="ai_learning_acceleration">Aceleração de aprendizado com IA</li>
+              <li data-i18n="ai_code_comprehension">Compreensão profunda de código via IA</li>
+              <li data-i18n="ai_problem_solving">Resolução eficiente de problemas</li>
+              <li data-i18n="ai_modern_tech">Adoção rápida de tecnologias modernas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact-section">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="contact_title">Entre em <span class="highlight">Contato</span></h2>
+        <p class="section-subtitle" data-i18n="contact_subtitle">Vamos criar algo incrível juntos!</p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3 data-i18n="contact_heading">Vamos trabalhar juntos?</h3>
+          <p data-i18n="contact_description">
+            Estou sempre aberto a discutir novas oportunidades, colaborações e projetos desafiadores.
+            Se você tem uma ideia ou precisa de um desenvolvedor para seu projeto, vamos conversar!
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4 data-i18n="email">Email</h4>
+                <a href="mailto:andersonpachecodeveloper@gmail.com" class="email-contact">
+                  andersonpachecodeveloper@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4 data-i18n="phone">Telefone / WhatsApp</h4>
+                <a href="https://wa.me/5522998148876" target="_blank" class="phone-contact">
+                  +55 22 99814-8876
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4 data-i18n="location">Localização</h4>
+                <p class="location-contact">Madre De Deus, Bahia, Brasil</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/AndersonDosReisPacheco" target="_blank" class="social-link" title="GitHub"
+              data-i18n-title="github">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/anderson-pacheco-dev" target="_blank" class="social-link" title="LinkedIn"
+              data-i18n-title="linkedin">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://wa.me/5522998148876" target="_blank" class="social-link" title="WhatsApp"
+              data-i18n-title="whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:andersonpachecodeveloper@gmail.com" class="social-link" title="Email"
+              data-i18n-title="email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- FORMULÁRIO ATUALIZADO COM TURNSTILE -->
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/mwvllyor" method="POST">
+          <input type="hidden" name="_subject" value="Novo contato do portfólio - Anderson Pacheco">
+          <input type="hidden" name="_replyto" value="" id="reply-to-email">
+          <input type="hidden" name="_cc" value="andersonpachecodeveloper@gmail.com">
+          <input type="hidden" name="_format" value="plain">
+          <input type="hidden" name="cf-turnstile-response" id="cf-turnstile-response">
+
+          <div class="form-group">
+            <input type="text" id="name" name="name" data-i18n-placeholder="your_name" placeholder="Seu nome *" required
+              minlength="2" maxlength="100" />
+            <div class="validation-message" id="name-error"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" data-i18n-placeholder="your_email" placeholder="Seu email *"
+              required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+            <div class="validation-message" id="email-error"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" data-i18n-placeholder="subject" placeholder="Assunto *"
+              required minlength="3" maxlength="200" />
+            <div class="validation-message" id="subject-error"></div>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" data-i18n-placeholder="your_message" placeholder="Sua mensagem *"
+              rows="5" required minlength="10" maxlength="2000"></textarea>
+            <div class="validation-message" id="message-error"></div>
+          </div>
+
+          <!-- Container do Turnstile -->
+          <div class="cf-turnstile-container" id="cf-turnstile-container"></div>
+
+          <input type="text" name="_gotcha" style="display:none">
+
+          <button type="submit" class="btn btn-primary" id="submit-btn" data-i18n="send_message" disabled>
+            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+          </button>
+
+          <div class="form-status" id="form-status"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="logo-text">Anderson<span class="logo-highlight">Pacheco</span></span>
+        <p data-i18n="footer_text">Transformando ideias em soluções digitais</p>
+      </div>
+
+      <div class="footer-links">
+        <h4 data-i18n="navigation">Navegação</h4>
+        <a href="#home" data-i18n="home">Início</a>
+        <a href="#about" data-i18n="about">Sobre</a>
+        <a href="#projects" data-i18n="projects">Projetos</a>
+        <a href="#skills" data-i18n="skills">Habilidades</a>
+        <a href="#contact" data-i18n="contact">Contato</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4 data-i18n="quick_contact">Contato Rápido</h4>
+        <p>
+          <a href="mailto:andersonpachecodeveloper@gmail.com" class="email-link"
+            style="text-decoration: none; color: inherit; display: flex; align-items: flex-start; gap: 0.5rem;">
+            <i class="fas fa-envelope" style="flex-shrink: 0; margin-top: 3px;"></i>
+            <span style="word-break: break-word; font-size: 0.9rem;">
+              andersonpachecodeveloper@gmail.com
+            </span>
+          </a>
+        </p>
+        <p>
+          <a href="https://wa.me/5522998148876" target="_blank"
+            style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-phone"></i>
+            <span>+55 22 99814-8876</span>
+          </a>
+        </p>
+        <p style="display: flex; align-items: center; gap: 0.5rem;">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Madre De Deus, BA - Brasil</span>
+        </p>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4 data-i18n="news">Novidades</h4>
+        <p data-i18n="news_description">Receba atualizações sobre novos projetos</p>
+        <div class="newsletter-form">
+          <input type="email" data-i18n-placeholder="your_email_placeholder" placeholder="Seu email"
+            id="newsletter-email" />
+          <button type="button" id="newsletter-submit" data-i18n-title="subscribe" title="Inscrever">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        &copy; <span id="current-year">2026</span> Anderson Pacheco. <span data-i18n="rights_reserved">Todos os direitos
+          reservados.</span>
+      </p>
+      <p data-i18n="developed_with">Desenvolvido com <i class="fas fa-heart"></i> e muito código</p>
+      <div class="footer-social">
+        <a href="mailto:andersonpachecodeveloper@gmail.com" class="footer-social-link" title="Enviar Email"
+          data-i18n-title="email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/AndersonDosReisPacheco" class="footer-social-link" title="GitHub" target="_blank"
+          data-i18n-title="github">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/anderson-pacheco-dev" class="footer-social-link" title="LinkedIn"
+          target="_blank" data-i18n-title="linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://wa.me/5522998148876" class="footer-social-link" title="WhatsApp" target="_blank"
+          data-i18n-title="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão para voltar ao topo -->
+  <button class="back-to-top" id="back-to-top" data-i18n-title="back_to_top" title="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</body>
+
+</html>
