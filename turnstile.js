@@ -6,7 +6,6 @@
 class TurnstileManager {
   constructor() {
     this.siteKey = "0x4AAAAAACWbgR9sONMjIP8d"; // SUA CHAVE DO SITE
-    this.secretKey = "0x4AAAAAACWbgR5Z5ZXAXJHJJ6hdH2rmTNk"; // SUA CHAVE SECRETA
     this.scriptLoaded = false;
     this.isInitialized = false;
     this.widgetId = null;
@@ -348,3 +347,4 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // Exporta para uso global
 window.turnstileManager = turnstileManager;
+
