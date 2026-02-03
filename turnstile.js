@@ -1,7 +1,6 @@
 // turnstile.js - Integração com Cloudflare Turnstile
 // Chaves da sua configuração:
 // Site Key: 0x4AAAAAACWbgR9sONMjIP8d
-// Secret Key: 0x4AAAAAACWbgR5Z5ZXAXJHJJ6hdH2rmTNk
 
 class TurnstileManager {
   constructor() {
@@ -347,4 +346,5 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // Exporta para uso global
 window.turnstileManager = turnstileManager;
+
 
