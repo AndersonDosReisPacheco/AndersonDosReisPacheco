@@ -832,7 +832,7 @@ function initCertificationsButton() {
       e.preventDefault();
 
       // URL do seu arquivo PDF - MUDAR AQUI!
-      const pdfUrl = "certificacoes_anderson_pacheco.pdf";
+      const pdfUrl = "https://drive.google.com/file/d/1qfGXsKkRGh2wx4a5zdARG4-W-zBeEJF0/view?usp=sharing";
 
       // Verificar se o PDF existe
       fetch(pdfUrl, { method: "HEAD" })
