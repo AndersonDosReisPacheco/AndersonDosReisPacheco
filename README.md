@@ -1,218 +1,150 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,100:000000&height=200&section=header&text=Anderson%20Dos%20Reis%20Pacheco&fontSize=40&fontColor=000000&animation=fadeIn&fontAlignY=35" alt="Header" />
-</div>
 
-# 👋 Olá! Eu sou Anderson Pacheco
-# 😄 Pronomes: ele/dele  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:1e3a8a&height=220&section=header&text=Anderson%20Pacheco&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 
-### 🎂 Idade: 23 anos
-### 💻 Desenvolvedor Full Stack | Software Engineering (em formação)
-### 🌍 Brasil | Disponível para oportunidades nacionais e internacionais
+# Full Stack Developer
 
-## 👨‍💻 Sobre mim
+Backend-focused Full Stack Developer passionate about scalable applications, software architecture and modern web technologies.
 
-**Sou Desenvolvedor Full Stack com forte foco em engenharia de software, desenvolvimento de aplicações web modernas, integração front-end e back-end, APIs REST, bancos de dados relacionais, arquitetura de software e boas práticas de desenvolvimento.**
+<br>
 
-**Tenho experiência prática em projetos acadêmicos e autorais, envolvendo desde aplicações front-end responsivas, até sistemas full stack, APIs em Java com Spring Boot, persistência de dados, segurança, autenticação, deploy em cloud e versionamento com Git/GitHub.**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anderson-pacheco-software-engineer)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://andersondosreispacheco.github.io/AndersonDosReisPacheco/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AndersonDosReisPacheco)
 
-**Atualmente sigo evoluindo continuamente em engenharia de software, boas práticas, design de sistemas, clean code, documentação técnica, integração de sistemas e deploy profissional.**
-
----
-
-## 🧑‍💻 Linguagens de Programação
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="42" alt="Java"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="42" alt="Python"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="42" alt="JavaScript"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="42" alt="TypeScript"/>
 </div>
 
 ---
 
-## 🌐 Front-end & Web
+# About Me
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="42" alt="HTML5"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="42" alt="CSS3"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="42" alt="React"/>
-</div>
+Full Stack Developer focused on backend engineering, REST APIs, scalable architectures and modern web applications.
 
-**Conhecimentos:**  
-- Desenvolvimento Front-end moderno  
-- Responsive Design  
-- Princípios de UI/UX  
-- Componentização  
-- Integração Front-end com APIs REST  
+I develop practical projects involving Java, Spring Boot, React, Node.js, PostgreSQL and cloud deployments, applying concepts such as Clean Code, SOLID principles, modular architecture and authentication with JWT.
+
+Currently focused on improving software engineering skills, backend development, cloud applications and real-world scalable systems.
 
 ---
 
-## ⚙️ Back-end & Frameworks
+# Tech Stack
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="42" alt="Spring Boot"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="42" alt="Node.js"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="42" alt="Express"/>
-</div>
+## Backend
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
-**Conhecimentos:**  
-- Spring Boot  
-- APIs RESTful  
-- JWT Authentication  
-- Spring Security  
-- Node.js + Express  
-- Integração de sistemas  
-- Arquitetura de aplicações  
-- Camadas (Controller, Service, Repository)  
-- Validações, DTOs, tratamento de erros  
+## Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
----
+## Database & ORM
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 
-## 🗄️ Banco de Dados (Relacionais)
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="42" alt="PostgreSQL"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="42" alt="MySQL"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="42" alt="SQLite"/>
-</div>
-
-**Conhecimentos:**  
-- PostgreSQL  
-- MySQL  
-- SQLite  
-- Neon (PostgreSQL Cloud)  
-- Modelagem de dados  
-- Consultas SQL  
-- Integração com JPA & Hibernate  
+## DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
-## 🧱 ORM & Persistência
+# Featured Projects
 
-- JPA  
-- Hibernate  
-- Mapeamento de entidades  
-- Relacionamentos (OneToMany, ManyToOne, etc.)  
-- Criação automática de tabelas  
-- Migrações de banco  
+## EventFlow
+Full Stack platform for event tracking, authentication, dashboards and audit logs.
 
----
+### Stack
+React • TypeScript • Node.js • Prisma ORM • PostgreSQL • JWT
 
-## 🧠 Conceitos & Fundamentos
+### Live Project
+https://event-flow-psi.vercel.app/
 
-- Programação Orientada a Objetos (POO)  
-  - Encapsulamento  
-  - Herança  
-  - Polimorfismo  
-  - Abstração  
-- Clean Code  
-- Boas práticas de desenvolvimento  
-- Organização de projetos  
-- Arquitetura de software  
-- Lógica de programação  
-- Estruturas condicionais e de repetição  
+### Repository
+https://github.com/AndersonDosReisPacheco
 
 ---
 
-## 🛠️ Dev Tools & IDEs
+## Data Analytics Pulse
+Data visualization and analytics platform with dashboards and backend integrations.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="42" alt="Git"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="42" alt="GitHub"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="42" alt="VSCode"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="42" alt="IntelliJ"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="42" alt="Docker"/>
-</div>
+### Stack
+React • Node.js • PostgreSQL
 
-**Ferramentas:**  
-- Git & GitHub  
-- VS Code  
-- IntelliJ IDEA  
-- Docker  
-- Insomnia / Postman (para APIs)  
+### Live Project
+https://data-analytics-pulse.vercel.app/
 
 ---
 
-## ☁️ Cloud & Deploy
+## MVPTimers
+Real-time MVP tracking system for Ragnarok Online with production deployment and custom domain.
 
-- Render  
-- Vercel  
-- Netlify  
-- GitHub Pages  
-- Cloud Deploy de aplicações Full Stack  
-- Integração CI/CD básica  
+### Live Project
+https://mvptimers.com
 
 ---
 
-# 🌐 Meu Portfólio Profissional <br></br>
+## ForumHub
+REST API developed with Spring Boot using JWT authentication, layered architecture and relational database integration.
 
-# 👇 Acesse meu portfólio completo:
+### Stack
+Java • Spring Boot • JWT • PostgreSQL • Flyway
 
-# 🔗 https://andersondosreispacheco.github.io/AndersonDosReisPacheco/ <br></br>
+### Repository
+https://github.com/AndersonDosReisPacheco/Challenge-ForumHub-Alura
 
+---
 
-# 🚀 Projetos em Destaque <br></br>
+# Portfolio
 
-# Projetos Full-Stack <br></br>
+## Professional Portfolio
+https://andersondosreispacheco.github.io/AndersonDosReisPacheco/
 
-- 🔹 **EventFlow** (EventFlow | Plataforma de Auditoria e Rastreamento de Eventos em Tempo Real)  https://event-flow-psi.vercel.app/
-- 🔹 **Data Analytics Pulse** (Data Analytics Pulse | Plataforma Full Stack de Análise de Dados) https://data-analytics-pulse.vercel.app/
+---
 
-# Projetos Formação Acadêmica Alura
-
-- 🔹 **ForumHub**  
-  Spring Boot, JWT, autenticação, API REST completa  
-  https://github.com/AndersonDosReisPacheco/Challenge-ForumHub-Alura  
-
-- 🔹 **LiterAlura**  
-  Java + API Gutendex + PostgreSQL  
-  https://github.com/AndersonDosReisPacheco/ChallengeLiterAlura
-
-- 🔹 **Conversor De Moedas**
-- Projeto Back-End (Java / API / Terminal)
-- https://github.com/AndersonDosReisPacheco/ConversorDeMoedas
-
-- 🔹 **Amigo Secreto** (Sorteador De Amigo Secreto Web) https://andersondosreispacheco.github.io/AmigoSecreto/
-
-# Projetos Pessoais
-
-- 🔹 **Mestre Cuca** (Sistema de Restaurante)  https://andersondosreispacheco.github.io/Restaurante-Mestre-Cuca/
-- 🔹 **Style Shop** (E-commerce)  https://andersondosreispacheco.github.io/MeuProjetoSiteStylesShop/
-- 🔹 **Med Center** (Sistema Médico)  https://andersondosreispacheco.github.io/MeuProjetoSiteMedCenter/
-- 🔹 **University Stellares** (Site Universidade Stellares) https://andersondosreispacheco.github.io/University-Stellares/
-
-
-
-
-## 🐍 GitHub Contributions Snake
+# GitHub Analytics
 
 <div align="center">
-  <img src="https://github.com/AndersonDosReisPacheco/AndersonDosReisPacheco/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AndersonDosReisPacheco&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndersonDosReisPacheco&layout=compact&langs_count=8&theme=github_dark"/>
+
 </div>
 
+---
 
-
-
+# Contribution Graph
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AndersonDosReisPacheco&theme=dark"
-       alt="Estatísticas de atividade" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AndersonDosReisPacheco&theme=github-dark"/>
+
 </div>
+
+---
+
+# Contact
+
+- LinkedIn:
+https://linkedin.com/in/anderson-pacheco-software-engineer
+
+- GitHub:
+https://github.com/AndersonDosReisPacheco
+
+- Portfolio:
+https://andersondosreispacheco.github.io/AndersonDosReisPacheco/
+
+- Email:
+andersonpachecodeveloper@gmail.com
+
+---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,100:000000&height=200&section=footer&text=Obrigado%20por%20visitar!&fontSize=30&fontColor=000000&animation=fadeIn&fontAlignY=65" alt="Footer" />
-</div>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:1e3a8a&height=140&section=footer"/>
+
+</div>
