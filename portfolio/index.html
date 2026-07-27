@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderson Pacheco | Portfólio Técnico Completo</title>
+    <meta
+      name="description"
+      content="Portfólio técnico completo de Anderson Pacheco, Desenvolvedor Full Stack. Projetos detalhados, stacks e habilidades."
+    />
+    <meta
+      name="keywords"
+      content="Full Stack, Java, Spring Boot, React, Node.js, TypeScript, PostgreSQL, Docker, APIs REST, Software Engineer"
+    />
+    <meta name="author" content="Anderson Pacheco" />
+
+    <meta property="og:title" content="Anderson Pacheco | Portfólio Técnico" />
+    <meta
+      property="og:description"
+      content="Portfólio completo com projetos detalhados, stacks e habilidades técnicas."
+    />
+    <meta property="og:image" content="../assets/Foto_Para_Portfólio.png" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navegação -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          Anderson<span class="logo-highlight">Pacheco</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="#about" class="nav-link" data-i18n="about">Sobre</a>
+          <a href="#projects" class="nav-link" data-i18n="projects">Projetos</a>
+          <a href="#skills" class="nav-link" data-i18n="skills">Stack</a>
+          <a href="#contact" class="nav-link" data-i18n="contact">Contato</a>
+        </div>
+
+        <button class="menu-toggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Seletor de Idioma -->
+        <div class="language-selector">
+          <div class="language-dropdown">
+            <button
+              class="language-toggle"
+              id="language-toggle"
+              type="button"
+              aria-label="Selecionar idioma"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fas fa-globe"></i>
+              <span>PT</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="language-menu" role="menu">
+              <button class="lang-btn active" type="button" data-lang="pt-BR" role="menuitem">
+                <span class="flag-icon">🇧🇷</span> Português (BR)
+              </button>
+              <button class="lang-btn" type="button" data-lang="en-US" role="menuitem">
+                <span class="flag-icon">🇺🇸</span> English (US)
+              </button>
+              <button class="lang-btn" type="button" data-lang="en-GB" role="menuitem">
+                <span class="flag-icon">🇬🇧</span> English (UK)
+              </button>
+              <button class="lang-btn" type="button" data-lang="es-ES" role="menuitem">
+                <span class="flag-icon">🇪🇸</span> Español (ES)
+              </button>
+              <button class="lang-btn" type="button" data-lang="fr-FR" role="menuitem">
+                <span class="flag-icon">🇫🇷</span> Français (FR)
+              </button>
+              <button class="lang-btn" type="button" data-lang="de-DE" role="menuitem">
+                <span class="flag-icon">🇩🇪</span> Deutsch (DE)
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="theme-toggle">
+          <input type="checkbox" id="theme-switch" class="theme-switch" />
+          <label for="theme-switch" class="theme-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO COMPACTO -->
+      <section class="hero-section" id="home">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h4 class="hero-subtitle" data-i18n="hero_subtitle">
+              Desenvolvedor Full Stack
+            </h4>
+            <h1 class="hero-title">
+              Anderson <span class="highlight">Pacheco</span>
+            </h1>
+            <p class="hero-description" data-i18n="hero_description">
+              Sistemas completos em produção com Java, Spring Boot, React,
+              Node.js e TypeScript. APIs RESTful, autenticação JWT, bancos de
+              dados relacionais e deploy em cloud.
+            </p>
+            <div class="hero-stack-badges">
+              <span>Java</span><span>Spring Boot</span><span>React</span>
+              <span>Node.js</span><span>TypeScript</span><span>PostgreSQL</span>
+              <span>Docker</span><span>REST APIs</span>
+            </div>
+            <div class="hero-actions">
+              <a href="#projects" class="btn-primary">
+                <i class="fas fa-code"></i>
+                <span data-i18n="view_projects">Ver Projetos</span>
+              </a>
+              <a href="#contact" class="btn-secondary">
+                <i class="fas fa-paper-plane"></i>
+                <span data-i18n="contact_me">Contato</span>
+              </a>
+              <a href="../index.html" class="btn-ghost">
+                <i class="fas fa-arrow-left"></i>
+                <span data-i18n="back_landing">Landing Page</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="profile-frame">
+              <img
+                src="../assets/Foto_Para_Portfólio.png"
+                alt="Anderson Pacheco"
+                class="profile-img"
+                loading="eager"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE -->
+      <section class="about-section" id="about">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span data-i18n="about_title">Sobre</span>
+            <span class="highlight" data-i18n="about_me">Mim</span>
+          </h2>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p data-i18n="about_para1">
+              Desenvolvedor Full Stack em formação em
+              <strong>Engenharia de Software</strong>, com experiência prática
+              em sistemas completos publicados em produção.
+            </p>
+            <p data-i18n="about_para2">
+              Minha stack principal é <strong>Java com Spring Boot</strong> no
+              back-end e <strong>React com TypeScript</strong> no front-end, com
+              bancos de dados <strong>PostgreSQL e MySQL</strong> e deploy em
+              <strong>Render e Vercel</strong>.
+            </p>
+            <p data-i18n="about_para3">
+              Aplico
+              <strong
+                >Clean Code, arquitetura em camadas, princípios SOLID</strong
+              >
+              e padrões RESTful para garantir qualidade, manutenibilidade e
+              escalabilidade em todos os projetos.
+            </p>
+
+            <div class="about-differentials">
+              <div class="diff-item">
+                <i class="fas fa-check-circle"></i>
+                <span data-i18n="diff_1"
+                  >Sistemas completos publicados em produção (Render,
+                  Vercel)</span
+                >
+              </div>
+              <div class="diff-item">
+                <i class="fas fa-check-circle"></i>
+                <span data-i18n="diff_2"
+                  >APIs RESTful com autenticação JWT e Spring Security</span
+                >
+              </div>
+              <div class="diff-item">
+                <i class="fas fa-check-circle"></i>
+                <span data-i18n="diff_3"
+                  >Integração Full Stack: Front-End + Back-End + Banco de
+                  Dados</span
+                >
+              </div>
+              <div class="diff-item">
+                <i class="fas fa-check-circle"></i>
+                <span data-i18n="diff_4"
+                  >Arquitetura limpa, testes e boas práticas de código</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number">4</span>
+              <span class="stat-label" data-i18n="projects_real"
+                >Projetos Principais</span
+              >
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">2</span>
+              <span class="stat-label" data-i18n="in_production"
+                >Em Produção</span
+              >
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">12+</span>
+              <span class="stat-label" data-i18n="github_repos"
+                >Repositórios GitHub</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJETOS DETALHADOS -->
+      <section class="projects-section" id="projects">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span data-i18n="projects_title">Meus</span>
+            <span class="highlight" data-i18n="projects_title_highlight">Projetos</span>
+          </h2>
+          <p class="section-subtitle" data-i18n="projects_subtitle">
+            Sistemas reais desenvolvidos com expertise técnica
+          </p>
+        </div>
+
+        <div class="project-filters">
+          <button
+            class="filter-btn active"
+            data-filter="all"
+            data-i18n="all_projects"
+          >
+            Todos
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="fullstack"
+            data-i18n="fullstack_projects"
+          >
+            Full Stack
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="backend"
+            data-i18n="backend_projects"
+          >
+            Backend/API
+          </button>
+        </div>
+
+        <div class="projects-container" id="projects-container">
+          <!-- Carregado via JavaScript -->
+        </div>
+      </section>
+
+      <!-- STACK TÉCNICA -->
+      <section class="skills-section" id="skills">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span data-i18n="skills_title">Stack</span>
+            <span class="highlight">Técnica</span>
+          </h2>
+          <p class="section-subtitle" data-i18n="skills_subtitle">
+            Tecnologias principais que utilizo nos meus projetos
+          </p>
+        </div>
+
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>
+              <i class="fas fa-server"></i>
+              <span data-i18n="backend_apis">Back-End & APIs</span>
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-tag">Java</div>
+              <div class="skill-tag">Spring Boot</div>
+              <div class="skill-tag">Spring Security</div>
+              <div class="skill-tag">Spring MVC</div>
+              <div class="skill-tag">Spring Data JPA</div>
+              <div class="skill-tag">JPA / Hibernate</div>
+              <div class="skill-tag">REST APIs</div>
+              <div class="skill-tag">Node.js</div>
+              <div class="skill-tag">Express.js</div>
+              <div class="skill-tag">Prisma ORM</div>
+              <div class="skill-tag">JWT Authentication</div>
+              <div class="skill-tag">Flyway Migrations</div>
+              <div class="skill-tag">Bean Validation</div>
+              <div class="skill-tag">Swagger / OpenAPI</div>
+              <div class="skill-tag">Maven</div>
+              <div class="skill-tag">DTO Pattern</div>
+              <div class="skill-tag">Exception Handling</div>
+              <div class="skill-tag">API Documentation</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>
+              <i class="fas fa-laptop-code"></i>
+              <span data-i18n="frontend_web">Front-End & Web</span>
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-tag">React.js</div>
+              <div class="skill-tag">TypeScript</div>
+              <div class="skill-tag">JavaScript (ES6+)</div>
+              <div class="skill-tag">Vite</div>
+              <div class="skill-tag">HTML5 Semântico</div>
+              <div class="skill-tag">CSS3 Moderno</div>
+              <div class="skill-tag">Responsive Design</div>
+              <div class="skill-tag">Zustand</div>
+              <div class="skill-tag">React Router</div>
+              <div class="skill-tag">Chart.js</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>
+              <i class="fas fa-database"></i>
+              <span data-i18n="databases">Banco de Dados</span>
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-tag">PostgreSQL</div>
+              <div class="skill-tag">MySQL</div>
+              <div class="skill-tag">Data Modeling</div>
+              <div class="skill-tag">SQL</div>
+              <div class="skill-tag">Query Optimization</div>
+              <div class="skill-tag">JDBC</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>
+              <i class="fas fa-cloud-upload-alt"></i>
+              <span data-i18n="devops_cloud">DevOps & Cloud</span>
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-tag">Docker</div>
+              <div class="skill-tag">Git</div>
+              <div class="skill-tag">Github</div>
+              <div class="skill-tag">Render</div>
+              <div class="skill-tag">Vercel</div>
+              <div class="skill-tag">Linux</div>            </div>
+          </div>
+        </div>
+
+         <div class="engineering-section">
+          <h3>
+            <i class="fas fa-cogs"></i>
+            <span data-i18n="engineering">Engenharia de Software</span>
+          </h3>
+          <div class="engineering-grid">
+    <div class="eng-item">Clean Code</div>
+    <div class="eng-item">SOLID Principles</div>
+    <div class="eng-item">Layered Architecture</div>
+    <div class="eng-item">Object-Oriented Programming</div>
+    <div class="eng-item">Design Patterns</div>
+    <div class="eng-item">RESTful Architecture</div>
+    <div class="eng-item">Separation of Concerns</div>
+    <div class="eng-item">Error Handling</div>
+    <div class="eng-item">Technical Documentation</div>
+  </div>
+</div>
+      </section>
+
+      <!-- CONTATO -->
+      <section class="contact-section" id="contact">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span data-i18n="contact_title">Entre em</span>
+            <span class="highlight">Contato</span>
+          </h2>
+          <p class="section-subtitle" data-i18n="contact_subtitle">
+            Vamos criar algo incrível juntos!
+          </p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3 data-i18n="contact_heading">Vamos conversar?</h3>
+            <p data-i18n="contact_description">
+              Estou disponível para oportunidades, colaborações e projetos
+              desafiadores.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4 data-i18n="email">Email</h4>
+                  <a href="mailto:andersonpachecodeveloper@gmail.com"
+                    >andersonpachecodeveloper@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4 data-i18n="phone">WhatsApp</h4>
+                  <a
+                    href="https://wa.me/5522998148876"
+                    target="_blank"
+                    rel="noopener"
+                    >+55 22 99814-8876</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4 data-i18n="location">Localização</h4>
+                  <p data-i18n="location_value">Madre De Deus, Bahia, Brasil</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://github.com/AndersonDosReisPacheco"
+                target="_blank"
+                rel="noopener"
+                class="social-link"
+                title="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/anderson-pacheco-software-engineer/"
+                target="_blank"
+                rel="noopener"
+                class="social-link"
+                title="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://wa.me/5522998148876"
+                target="_blank"
+                rel="noopener"
+                class="social-link"
+                title="WhatsApp"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a
+                href="mailto:andersonpachecodeveloper@gmail.com"
+                class="social-link"
+                title="Email"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formspree.io/f/mwvllyor"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Contato do Portfólio - Anderson Pacheco"
+            />
+            <input
+              type="hidden"
+              name="_cc"
+              value="andersonpachecodeveloper@gmail.com"
+            />
+            <input type="text" name="_gotcha" style="display: none" />
+            <input
+              type="hidden"
+              name="cf-turnstile-response"
+              id="cf-turnstile-response"
+            />
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                data-i18n-placeholder="your_name"
+                placeholder="Seu nome *"
+                required
+                minlength="2"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                data-i18n-placeholder="your_email"
+                placeholder="Seu email *"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                data-i18n-placeholder="subject"
+                placeholder="Assunto *"
+                required
+                minlength="3"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                data-i18n-placeholder="your_message"
+                placeholder="Sua mensagem *"
+                rows="5"
+                required
+                minlength="10"
+              ></textarea>
+            </div>
+
+            <div
+              class="cf-turnstile-container"
+              id="cf-turnstile-container"
+            ></div>
+
+            <button type="submit" class="btn-primary" id="submit-btn" disabled>
+              <i class="fas fa-paper-plane"></i>
+              <span data-i18n="send_message">Enviar Mensagem</span>
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-text"
+            >Anderson<span class="logo-highlight">Pacheco</span></span
+          >
+          <p data-i18n="footer_text">
+            Transformando ideias em soluções digitais
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4 data-i18n="navigation">Navegação</h4>
+          <a href="#about" data-i18n="about">Sobre</a>
+          <a href="#projects" data-i18n="projects">Projetos</a>
+          <a href="#skills" data-i18n="skills">Stack</a>
+          <a href="#contact" data-i18n="contact">Contato</a>
+          <a href="../index.html" data-i18n="back_landing">Landing Page</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4 data-i18n="contact_footer">Contato</h4>
+          <p>
+            <i class="fas fa-envelope"></i> andersonpachecodeveloper@gmail.com
+          </p>
+          <p><i class="fas fa-phone"></i> +55 22 99814-8876</p>
+          <p><i class="fas fa-map-marker-alt"></i> Madre De Deus, BA</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="current-year">2026</span> Anderson Pacheco.
+          <span data-i18n="rights_reserved">Todos os direitos reservados.</span>
+        </p>
+        <div class="footer-social">
+          <a
+            href="https://github.com/AndersonDosReisPacheco"
+            target="_blank"
+            rel="noopener"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/anderson-pacheco-software-engineer/"
+            target="_blank"
+            rel="noopener"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://wa.me/5522998148876" target="_blank" rel="noopener"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="translations.js"></script>
+<script src="projects.js"></script>
+<script src="script.js"></script>
+  </body>
+</html>
